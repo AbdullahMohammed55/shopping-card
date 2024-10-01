@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.logo_header .navbar-brand img {
+    width: 110px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 7px;
+}
+
+span.bar-icon {
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.navbar-nav .nav-item {
+    padding: 25px;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+}
+
+.nav-item .nav-link {
+    color: white;
+}
+
+.but_login_header a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    background-color: rgba(0, 17, 255, 0.848);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 20px 0 0;
+}
+
+.but_singup a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    background-color: rgba(0, 17, 255, 0.848);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 20px 0 0;
+}
+
+.icon_car i {
+    color: white;
+    font-size: 1.8rem;
+    margin: 18px;
+}
+
+.count-login {
+    transform: translate(145%, 30%);
+    width: 450px;
+    height: 450px;
+    background-color: black;
+    border-radius: 25px;
+}
+
+.title_form {
+    text-align: center;
+    font-size: 2.4rem;
+    color: gray;
+    font-weight: bold;
+}
+
+
+
+
+.user_nam label {
+    font-size: 1.6rem;
+    display: block;
+    text-transform: capitalize;
+    margin: 5px 20px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.user_nam input {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 2px 100px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 5px;
+    text-align: center;
+}
+
+.pass_person {
+    margin: 30px 0;
+}
+
+.pass_person label {
+    font-size: 1.6rem;
+    display: block;
+    text-transform: capitalize;
+    margin: 5px 20px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.pass_person input {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 2px 100px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    text-align: center;
+    padding: 5px;
+}
+
+.footer_form {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 30px 0;
+}
+
+.but_login {
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    color: white;
+    background-color: gray;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.footer_link {
+    font-size: 1.7rem;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}

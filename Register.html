@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>shopping</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="personal website for shopping">
+    <meta name="keywords" content="shopping, shop, online shopping, shop online, shop online shopping, shopping online">
+    <link rel="stylesheet" href="css-Resgister/all.css">
+    <link rel="stylesheet" href="css-Resgister/bootstrap.css">
+    <link rel="stylesheet" href="css-Resgister/Register.css">
+    <link rel="icon" href="images/icon-one.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="logo_header">
+                    <a href="index.html" class="navbar-brand"><img src="images/online-shop-logo-design-free-vector.jpg"
+                            alt="logo for page"></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbar_content_list" aria-controls="navbar_content_list" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon bar-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar_content_list">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">about</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">service</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">contact</a></li>
+                    </ul>
+                    <button class="btn but_login_header"><a href="login.html" class="link_login">login</a></button>
+                    <button class="btn but_singup"><a href="Register.html" class="link_singup">signup</a></button>
+                    <span class="icon_car"><i class="fa-solid fa-cart-shopping"></i></span>
+                    <span class="count_proudect"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid cont-register">
+        <h2 class="title_form">register</h2>
+
+        <form>
+            <div class=" name_user">
+                <div class="first_name">
+                    <label for="fname">first name</label>
+                    <input type="text" placeholder="Enter your first name" id="fname">
+                </div>
+                <div class="last_name">
+                    <label for="lname">last name</label>
+                    <input type="text" placeholder="Enter your last name" id="lname">
+                </div>
+            </div>
+            <div class="info-user ">
+                <div class="user_name">
+                    <label for="username">username</label>
+                    <input type="text" placeholder="Enter your username" id="username">
+                </div>
+                <div class="email_name">
+                    <label for="email">email</label>
+                    <input type="email" placeholder="Enter your email" id="email">
+                </div>
+                <div class="pass_user">
+                    <label for="password">password</label>
+                    <input type="password" placeholder="Enter your password" id="password">
+                </div>
+            </div>
+            <div class="footer-regist">
+                <div class="buttom_regist">
+                    <button class="btn but-regsit">Register</button>
+                </div>
+                <div class="forget-pass">
+                    <input type="checkbox" id="remember_me"><label for="remember_me"><a href="resetpass.html">forget
+                            password</a></label>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src=" js-Register/Register.js">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="login page for this website">
+    <meta name="keywords" content="login, login page, login form">
+    <link rel="stylesheet" href="css-login/all.css">
+    <link rel="stylesheet" href="css-login/bootstrap.css">
+    <link rel="stylesheet" href="css-login/login.css">
+    <link rel="icon" href="images/icon-one.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="logo_header">
+                    <a href="index.html" class="navbar-brand"><img src="images/online-shop-logo-design-free-vector.jpg"
+                            alt="logo for page"></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbar_content_list" aria-controls="navbar_content_list" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon bar-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar_content_list">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">about</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">service</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">contact</a></li>
+                    </ul>
+                    <button class="btn but_login_header"><a href="login.html" class="link_login">login</a></button>
+                    <button class="btn but_singup"><a href="Register.html" class="link_singup">signup</a></button>
+                    <span class="icon_car"><i class="fa-solid fa-cart-shopping"></i></span>
+                    <span class="count_proudect"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <div class="count-login">
+            <h2 class="title_form"> Login</h2>
+            <form>
+                <div class="user_nam">
+                    <label for="user_name">username</label>
+                    <input type="text" placeholder="Enter your username" id="user_name">
+                </div>
+                <div class="pass_person">
+                    <label for="pass_person">password</label>
+                    <input type="password" placeholder="Enter your password" id="pass_person">
+                </div>
+                <div class="footer_form">
+                    <button class="btn but_login">login </button>
+                    <a href="Register.html" class="footer_link">Register_Now</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="js-login/login.js ">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Shopping Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the shopping page for the website">
+    <meta name="keywords" content="shopping, shop, online shopping">
+    <meta name="author" content="Eng.Abdullah Mohammed">
+    <link rel="icon" href="images/icon-one.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css-product/bootstrap.css">
+    <link rel="stylesheet" href="css-product/all.css">
+    <link rel="stylesheet" href="css-product/product.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="logo_header">
+                    <a href="index.html" class="navbar-brand"><img src="images/online-shop-logo-design-free-vector.jpg"
+                            alt="logo for page"></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbar_content_list" aria-expanded="false" aria-controls="navbar_content_list"
+                    aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars bar-icon"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar_content_list">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Service</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                    </ul>
+                    <div id="links">
+                        <button class="btn but_login"><a href="login.html" class="link_login">Login</a></button>
+                        <button class="btn but_singup"><a href="Register.html" class="link_singup">Signup</a></button>
+                    </div>
+                    <button class="btn but-logout">Logout</button>
+                    <div class="user_contain">
+                        <span class="user_icon"><i class="fa-solid fa-circle-user" id="user_icon"></i></span>
+                        <span class="user_name_icon"></span>
+                    </div>
+                    <span class="icon_car">
+                        <a href="product.html" class="link_icon_car shopping-cart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </span>
+                    <span class="count_product badge" style="display:none;"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="container">
+            <div class="products">
+                <div class="product_item col-lg-4">
+                    <a href="produect.html"><img src="images/phone1.jpg" alt="image for phone"></a>
+                    <div class="product_item_desc">
+                        <p>tablet iphone</p>
+                        <p>this is the best tablet</p>
+                        <p><span>egp</span>10,000</p>
+                    </div>
+
+                    <div class="product_item_action">
+                        <a href="#"><button class="btn but10">remove cart</button></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js-product/product.js">
+    </script>
+</body>
+
+</html>

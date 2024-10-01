@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: black;
+
+}
+
+.logo_header .navbar-brand img {
+    width: 110px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 7px;
+}
+
+span.bar-icon {
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.navbar-nav .nav-item {
+    padding: 25px;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+}
+
+.nav-item .nav-link {
+    color: white;
+}
+
+.but_login_header a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    background-color: rgba(0, 17, 255, 0.848);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 20px 0 0;
+}
+
+.but_singup a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    background-color: rgba(0, 17, 255, 0.848);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 20px 0 0;
+}
+
+.icon_car i {
+    color: white;
+    font-size: 1.8rem;
+    margin: 18px;
+}
+
+.cont-register {
+    transform: translate(5%, 3%);
+    background-color: black;
+    width: 450px;
+    border-radius: 50px;
+}
+
+.title_form {
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    padding: 5px;
+    font-size: 2.4rem;
+}
+
+.name_user .first_name label {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: gray;
+    display: block;
+    padding: 10px;
+    text-transform: capitalize;
+    margin: 5px;
+}
+
+.name_user .first_name input {
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    padding: 2px;
+    margin: 2px 90px;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+}
+
+.name_user .last_name label {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: gray;
+    display: block;
+    padding: 10px;
+    text-transform: capitalize;
+    margin: 5px;
+}
+
+.name_user .last_name input {
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    padding: 2px;
+    margin: 2px 90px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+
+.user_name label {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: gray;
+    display: block;
+    padding: 10px;
+    text-transform: capitalize;
+    margin: 5px;
+}
+
+.user_name input {
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    padding: 2px;
+    margin: 2px 90px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+
+.email_name label {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: gray;
+    padding: 10px;
+    text-transform: capitalize;
+    margin: 5px;
+    display: block;
+}
+
+.email_name input {
+    font-size: 1.3rem;
+    /* text-transform: capitalize; */
+    padding: 2px;
+    margin: 2px 90px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+
+.pass_user label {
+    font-size: 1.6rem;
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: gray;
+}
+
+.pass_user input {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2px;
+    margin: 2px 90px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+
+.footer-regist {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+.buttom_regist button.but-regsit {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    background-color: gray;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+button.but-regsit:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.forget-pass {
+    margin: 18px 0;
+}
+
+.forget-pass input {
+    margin: 0 5px;
+}
+
+.forget-pass label {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.forget-pass a {
+    text-decoration: none;
+    color: white;
+}
+
+.forget-pass a:hover {
+    color: blue;
+}
